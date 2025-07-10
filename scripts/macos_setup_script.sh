@@ -161,6 +161,7 @@ APPLICATIONS=(
     "setapp"
     "viscosity"
     "visual-studio-code"
+    "whatsapp@beta"
 )
 
 for app in "${APPLICATIONS[@]}"; do
