@@ -81,7 +81,6 @@ print_status "Installing CLI tools..."
 CLI_TOOLS=(
     "atuin"
     "bat"
-    "docker-desktop"
     "fastfetch"
     "lazydocker"
     "lsd"
@@ -150,10 +149,11 @@ APPLICATIONS=(
     "latest"
     "linearmouse"
     "makemkv"
-    "mkvtoolnix"
     "mkvtoolnix-app"
+    "mkvtoolnix"
     "mockoon"
     "obsidian"
+    "orbstack"
     "oversight"
     "pearcleaner"
     "rapidapi"
@@ -161,7 +161,6 @@ APPLICATIONS=(
     "setapp"
     "viscosity"
     "visual-studio-code"
-    "vlc"
 )
 
 for app in "${APPLICATIONS[@]}"; do
